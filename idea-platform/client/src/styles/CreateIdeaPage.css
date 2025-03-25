@@ -1,0 +1,67 @@
+/* CreateIdeaPage.css */
+.create-idea-page {
+    padding: 16px;
+    padding-bottom: 70px;
+  }
+  
+  .create-idea-page h2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #333;
+  }
+  
+  .idea-form {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .idea-form textarea,
+  .idea-form input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  .idea-form textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .character-count {
+    text-align: right;
+    color: #666;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
+  .submit-button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .submit-button:disabled {
+    background-color: #a0d6f6;
+    cursor: not-allowed;
+  }

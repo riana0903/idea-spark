@@ -1,0 +1,73 @@
+/* IdeaCard.css */
+.idea-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    padding: 16px;
+  }
+  
+  .idea-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+  }
+  
+  .user-name {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .idea-content-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  .idea-content {
+    margin-bottom: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .idea-tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  
+  .tag {
+    color: #1da1f2;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    text-decoration: none;
+  }
+  
+  .idea-actions {
+    display: flex;
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+  }
+  
+  .like-button, .comment-button {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 24px;
+    padding: 4px 0;
+    text-decoration: none;
+  }
+  
+  .like-button:hover, .comment-button:hover {
+    color: #1da1f2;
+  }

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="50" fill="#E0E0E0"/>
+  
+  <!-- Head -->
+  <circle cx="50" cy="40" r="25" fill="#F5F5F5"/>
+  
+  <!-- Eyes -->
+  <circle cx="40" cy="35" r="3" fill="#333"/>
+  <circle cx="60" cy="35" r="3" fill="#333"/>
+  
+  <!-- Smile -->
+  <path d="M35 50 Q50 65, 65 50" fill="none" stroke="#333" stroke-width="3"/>
+</svg>

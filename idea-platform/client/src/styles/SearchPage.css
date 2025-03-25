@@ -1,0 +1,31 @@
+/* SearchPage.css */
+.search-page {
+    padding-bottom: 70px;
+  }
+  
+  .search-results-header {
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .search-results-header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .search-results {
+    padding: 16px;
+  }
+  
+  .no-results {
+    text-align: center;
+    color: #666;
+    padding: 40px 16px;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 40px 0;
+    color: #666;
+  }

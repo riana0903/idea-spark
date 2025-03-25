@@ -1,0 +1,51 @@
+/* EvaluationForm.css */
+.evaluation-form {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+  }
+  
+  .evaluation-form h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .evaluation-item {
+    margin-bottom: 16px;
+  }
+  
+  .evaluation-item label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .score-slider {
+    display: flex;
+    align-items: center;
+  }
+  
+  .score-slider input {
+    flex: 1;
+    margin-right: 12px;
+  }
+  
+  .score-value {
+    font-weight: bold;
+    min-width: 24px;
+    text-align: center;
+  }
+  
+  .submit-button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 8px;
+  }
